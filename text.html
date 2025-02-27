@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./text.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem para meu amor</title>
+</head>
+<body>
+    <section class="galeria">
+        <img class="img1" src="./img/IMG-20250227-WA0012.jpg" alt="">
+        <img class="img2" src="./img/IMG-20250227-WA0010.jpg" alt="">
+    </section>
+    <section class="audio">
+        <p class="p_audio">Emigrate - Novo Amor</p>
+    <audio controls src="./img/Áudio do WhatsApp de 2025-02-27 à(s) 14.42.12_8256e371.mp3"></audio>
+    </section>
+    <div class="container">
+        <h1>Meu amor, que prazer é ter você!</h1>
+        <p>Hoje é um dia especial, pra comemorar o amor que nasceu entre nós, aquele que transformou tudo ao nosso redor em algo mais bonito. A cada dia que passa, eu me sinto mais grata por ter você ao meu lado.</p>
+        <p>Eu nunca imaginei que poderia amar alguém de uma forma tão intensa e pura, mas você me mostrou o que é realmente o amor. Com você, eu encontrei não só o meu par, mas também a minha melhor amiga, a pessoa com quem quero compartilhar todos os momentos da vida, seja nos dias felizes ou nem tanto.</p>
+        <p>A cada risada, a cada conversa, a cada olhar, eu me apaixono ainda mais por você. Você é meu abrigo, minha inspiração, a razão pela qual o meu coração bate mais forte. Não importa o que o futuro nos reserva, o que mais importa é que eu sei que sempre estarei ao seu lado, pois não existe lugar melhor para mim do que ao seu lado.</p>
+        <p>Obrigada por ser minha metade, por me fazer sentir tão amada e por me ajudar a crescer a cada dia.</p>
+        <p>Eu espero possamos comemorar muitos e muitos outros aniversários juntas, criando memórias que serão eternas em nossos corações.</p>
+        <p>Eu te amo mais do que palavras podem expressar.</p>
+        <p class="assinatura">- Com carinho, sua pitiquinha.</p>
+    </div>
+    <section class="galeria">
+        <img class="img1" src="./img/IMG-20250227-WA0013.jpg" alt="">
+        <img class="img2" src="./img/IMG-20250227-WA0011.jpg" alt="">
+    </section>
+    <script>
+        function createHeart() {
+            const heart = document.createElement("div");
+            heart.classList.add("heart");
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+            document.body.appendChild(heart);
+            setTimeout(() => heart.remove(), 5000);
+        }
+        setInterval(createHeart, 300);
+    </script>
+</body>
+</html>
